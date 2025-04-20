@@ -1,0 +1,15 @@
+{
+  "jobs": [
+    {
+      "id": "test_job",
+      "func": "jobs.test.run",
+      "cron": {
+        "minute": "*/1",
+        "hour": "*",
+        "day": "*",
+        "month": "*",
+        "day_of_week": "*"
+      }
+    }
+  ]
+}
